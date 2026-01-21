@@ -1,4 +1,4 @@
-# EEG-Tactile-vs-Electrical-Target-Detection
+# EEG-Tactile-vs-Electrical-Target-Detection-Bayesian-Model-Selection
 Matlab scripts to analyze data from an EEG study on somatosensory target detection:
 
 Förster, J., Vardiero, G., Nierhaus, T., & Blankenburg, F. (2025). ERP responses reveal different neural mechanisms for perception of electrical and tactile stimuli. Consciousness and Cognition 135:103935. https://doi.org/10.1016/j.concog.2025.103935
