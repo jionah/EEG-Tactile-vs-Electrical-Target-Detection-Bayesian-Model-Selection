@@ -1,8 +1,11 @@
 %% Plot PFs
 % Plot psychometric functions and apply data exclusion criteria (min P(detected) > 10% || max P(not detected) < 90%)
+% Note: This script (x00) is the only one that will (currently) not work with the trial_log files available on Figshare,
+% as it requires the full log files, which are not part of the upload. The script is still provided here for completeness.
 
 clear
 close all
+clc
 
 mydir    = '...\...\TacElec_EEG'; % Path to project folder
 
@@ -249,5 +252,6 @@ if plot_it
     
     fprintf('T50 = %1.2f\nT01 = %1.2f\nT99 = %1.2f\n', PF.T50, PF.T01, PF.T99);
 end
+
 
 end
